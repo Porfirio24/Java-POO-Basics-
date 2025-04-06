@@ -22,7 +22,7 @@ Com seu foco sendo voltado a Programção Orientada ao Objeto tudo é escrito em
 
 ‼️Vale lembra que no Java existem algumas palavras reservadas para apresentação dos tipos de dados basicos que precisam ser manipulados para a contrução do programa que são conhecidos como (Primitive Types)
 
-Que São : Int,byte,short,long,float,double,boolean e char - esses tipos representam valores brutos, por tanto não são consideros objetos
+Que São : Int,byte,short,long,float,double,boolean e char - esses tipos representam valores brutos, por tanto não são considerados objetos
 
 # Introção Inicial
 
@@ -35,10 +35,10 @@ Que São : Int,byte,short,long,float,double,boolean e char - esses tipos represe
   int AnoFabricação = 2021; // Tipo "int",nome "AnoFabricação", com o valor atribuido de 2021
   double Salario = 2.500 // Tipo "doubler", nome "Salario", com o valor atribuido de 2.500
  ```
-‼️E importante lembrar que no exemplo do salário não e necessario colocar o ponto pois o sistema ja entende que o valor é 2500 reias, a menos que você queira colocar os centavos ai pode se adicionar o ".".
+‼️É importante lembrar que no exemplo do salário não e necessario colocar o ponto pois o sistema ja entende que o valor é 2500 reias, a menos que você queira colocar os centavos ai pode se adicionar o ".".
 
  ```java
- double salario = 2500.34// então agora o sistema entende como dois e quinhentos reais e trinta e quatro centavos
+ double salario = 2500.34// então agora o sistema entende como dois mil e quinhentos reais e trinta e quatro centavos
  ```
 
 **📝Algumas peculiaridades sobre tipos específicos:**
@@ -57,7 +57,7 @@ public class TipoDados{
 ```
 ‼️Uma observação e que o tipo Long precisa se colocar o "L" no final da declaração, assim como o tipo Float que precisa colocar o "F" no final da sua declaração
 
-**Constantes**
+**Constantes:**
 As constantes são valores armazenados na memória que não podem ser modificados depois de serem declarados. Em java, esses valores são representados pela palavra reservada final, seguida do tipo. Por convenção as Constantes são escrita em Caixa Alto
 
 - Exemplo:
@@ -75,4 +75,4 @@ Valor_DE_PI = 10.75
 ```
 Ao adicionar o "Final" faz com que o valor de PI não possa mais ser alterado.
 
-‼️Compreendesse que para declarar uma variável como uma constante, utilizando a palavra Final, mas por convenção, esta variavel deverá ser escrita toda em caixa alta
+‼️Compreende-se que para declarar uma variável como uma constante, utilizando a palavra Final, mas por convenção, esta variavel deverá ser escrita toda em caixa alta
