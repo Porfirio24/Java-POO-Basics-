@@ -34,6 +34,7 @@ public class Banco {
      System.out.println("Sua Agência: " + agencia);
      System.out.println("Sua Conta: " + conta);
      System.out.println("Seu Saldo: "+ saldo);
+     System.out.println("Obrigado por criar uma conta Conosco!!");
     }else if (opcao == 2){
      System.out.println("Saindo... ");
     }else{
