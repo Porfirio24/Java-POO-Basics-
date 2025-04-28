@@ -1,4 +1,5 @@
-package Src.Exercicios;
+package Src.Aula;
+
 import java.util.Scanner;
 
 public class Data {
