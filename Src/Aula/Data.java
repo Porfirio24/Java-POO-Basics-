@@ -43,5 +43,6 @@ public class Data {
         }
         System.out.print(" de "+ ano);
 
+        leitor.close();
     }
 }
