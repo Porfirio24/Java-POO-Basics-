@@ -1,6 +1,6 @@
 /*Faça um programa que retorne a distância entre dois pontos */
 
-package Src.Aula;
+package Src.Aulas;
 import java.util.Scanner;
 
 public class Distancia {

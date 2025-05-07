@@ -1,4 +1,4 @@
-package Src.Aula;
+package Src.Aulas;
 import java.util.Scanner;
 import java.util.Calendar;
 
