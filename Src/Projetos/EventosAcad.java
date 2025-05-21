@@ -1,9 +1,9 @@
 public class EventosAcad {
-  String nomeDoEvento;
-  String localDoEvento;
-  int numeroDeParticipantes;
+  private String nomeDoEvento;
+  private String localDoEvento;
+  private int numeroDeParticipantes;
 
-  EventosAcad(String n, String l, int p){
+  public EventosAcad(String n, String l, int p){
     this.nomeDoEvento = n;
     this.localDoEvento = (l.isEmpty() ? "UFERSA" : l);
     this.numeroDeParticipantes = (numeroDeParticipantes > 0 ? numeroDeParticipantes : 1);
