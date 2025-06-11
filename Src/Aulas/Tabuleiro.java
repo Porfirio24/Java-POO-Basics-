@@ -7,7 +7,7 @@ public class Tabuleiro {
 
   public Tabuleiro(){
   tab = new char [LIN][COL];
-  for (int i = 0; linha)
+  for (int i = 0; linha);
   }
 }
 
