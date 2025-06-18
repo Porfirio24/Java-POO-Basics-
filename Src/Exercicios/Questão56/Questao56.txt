@@ -1,0 +1,24 @@
+Q56. [CS-UFG- 2024- Câmara de Anápolis- GO- Analista Administrativo- Analista de Sistemas] Considere o trecho abaixo de código escrito 
+na linguagem Java.
+ 
+        for (i = 0; i <= 3; i++) {
+            index = i;
+            for (j = i + 1; j <= 4; j++) {
+                if (v[j] < v[index]) {
+                    index = j;
+                }
+            }
+            if (index != i) {
+                aux = v[index];
+                v[index] = v[i];
+                v[i] = aux;
+            }
+        }
+
+ Suponha um vetor inteiro v de tamanho 5. Ao entrar com valores v = [3, 7, 2, 3, 10] a
+ saída deste vetor após passar pelo código será:
+
+ ( ) v = [10, 7, 3, 3, 2].
+ ( ) v = [2, 3, 10, 3, 7].
+ ( ) v = [3, 3, 2, 10, 7].
+ (X) v = [2, 3, 3, 7, 10].
