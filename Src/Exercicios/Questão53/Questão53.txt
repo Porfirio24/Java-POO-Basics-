@@ -1,0 +1,21 @@
+53. [FCC - 2022 - Analista Judiciário - Tecnologia da Informação] Considere o código Java abaixo.
+public class Main {
+    public static void main(String args[]) {
+        int dados[][] = new int[5][];            // Cria um array de 5 linhas, mas colunas não definidas
+        for(int i = 0; i < 5; i++) {
+            dados[i] = new int[5];               // Inicializa cada linha como um array de 5 elementos
+            for(int j = 0; j < 5; j++) {
+                dados[i][j] = i + j;             // Atribui o valor i + j para cada elemento
+                System.out.println(dados[i][j]); // Imprime o valor
+            }
+        }
+    }
+}
+Sobre o código
+( ) Ocorrerá uma exceção do tipo NullPointerException, pois na terceira linha não foi
+definido o número de linhas da array dados.
+( ) Ao tirar o comando dados[i] = new int[5]; o programa executará normalmente.
+( ) O comando int[][] dados = new int[5][]; precisa obrigatoriamente ser substituído por int[][] dados = new int[5][5];.
+(X) i < 5 na quarta linha pode ser substituído por i < dados.length sem afetar a lógica
+de execução.
+( ) Ocorrerá uma exceção do tipo NullPointerException no comando dados [i][j] = i + j;.
