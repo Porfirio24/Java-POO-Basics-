@@ -1,4 +1,4 @@
-53. [FCC - 2022 - Analista Judiciário - Tecnologia da Informação] Considere o código Java abaixo.
+Q53. [FCC - 2022 - Analista Judiciário - Tecnologia da Informação] Considere o código Java abaixo.
 public class Main {
     public static void main(String args[]) {
         int dados[][] = new int[5][];            // Cria um array de 5 linhas, mas colunas não definidas
