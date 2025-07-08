@@ -1,4 +1,4 @@
-package Src.Exercicios.Questão1;
+package Src.Exercicios.Programação.Questão1;
 
 public class TesteTime {
     public static void main(String[] args) {

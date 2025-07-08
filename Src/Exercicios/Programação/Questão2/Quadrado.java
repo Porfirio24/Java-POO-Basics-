@@ -1,6 +1,6 @@
 /*Escreva um programamque calcule a area de um quadrado. O valor do lado de um quadrado deverá ser informado pelo usuário */
 
-package Src.Exercicios.Questão2;
+package Src.Exercicios.Programação.Questão2;
 import java.util.Scanner;
 
 public class Quadrado {

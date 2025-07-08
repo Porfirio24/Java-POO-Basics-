@@ -1,4 +1,4 @@
-package Src.Exercicios.Questão50;
+package Src.Exercicios.Programação.Questão50;
 
 import java.util.ArrayList;
 import java.util.Scanner;

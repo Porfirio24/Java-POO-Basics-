@@ -1,0 +1,23 @@
+57. [FADE - UFPE - 2023 - UFPE - Analista de Tecnologia da Informação - Área: Sistemas]
+Considere o seguinte código em Java:
+public class Main {
+public static void main(String[] args) {
+18
+Integer[] A = new Integer[3];
+A[0] = 2;
+A[1] = 3;
+A[2] = 9;
+proc(A, A[2]);
+System.out.println(A[0] + A[1] + A[2]);
+}
+private static void proc(Integer[] B, Integer c) {
+B[0] = c;
+B[2] = B[0] + B[1];
+}
+}
+A execução desse código resulta na impressão do seguinte valor:
+(A) 14
+(B) 17
+(C) 24
+(D) 11
+(E) 21

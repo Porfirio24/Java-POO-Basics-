@@ -1,4 +1,4 @@
-package Src.Exercicios.Questão48;
+package Src.Exercicios.Programação.Questão48;
 
 public class DemoAgenda {
    public static void main(String[] args) {

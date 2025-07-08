@@ -1,4 +1,4 @@
-package Src.Exercicios.Questão49;
+package Src.Exercicios.Programação.Questão49;
 
 public class DemoMatriz {
   public static void main(String[] args) {

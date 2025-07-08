@@ -3,7 +3,7 @@ utilize para representar uma fatura de um item vendido. Uma Fatura deve incluir 
 configurada como 0. Se o preço por item não for positivo, ele deve ser configurado como 0.0. Forneça também um método chamado calculaT otal que calcula e retorna o valor de fatura (isto é, multiplica a quantidade pelo preço por item). Escreva um aplicativo de teste
 que demonstre as capacidades da classe criada. */
 
-package Src.Exercicios.Questão6;
+package Src.Exercicios.Programação.Questão6;
 
 public class Fatura {
   private int id;

@@ -1,6 +1,6 @@
 /*Escrava um programa que receba uma temperatura em  graus centigrados e a apresente em graus Fahrenheit */
 
-package Src.Exercicios.Questão4;
+package Src.Exercicios.Programação.Questão4;
 import java.util.Scanner;
 
 public class Temperatura {
